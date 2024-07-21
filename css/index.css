@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*$padding: 6px;
+$primary: #F4C03B;
+$secondary: #59B9C7;*/
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/CRITERIA-BEACH-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-link:hover {
+  border: dashed #F4C03B;
+  border-radius: 10%;
+}
+
+ol, ul, li {
+  background-color: #59b8c76b;
+  border-radius: 10%;
+}
+
+.box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 30px
+}
+
+.container{
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+margin: 30px;
+
+}
+
+.box :first-child{
+  align-self: center;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  /*height: 100px;*/
+ /* width: 100px;*/
+  outline: black;
+  background-color: #59B9C7;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.carousel-indicators {
+  background-color: #59b8c765;
+}
+
+figure {
+  margin: 0;
+}
