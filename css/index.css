@@ -17,6 +17,17 @@ header {
   background-size: cover;
 }
 
+h1, h2 {
+  position: relative;
+  margin: 5%;
+  left: 5%;
+  color: rgb(11, 26, 39);
+  text-shadow: #F4C03B;
+  text-decoration-color: #59B9C7;
+  text-emphasis-color: #F4C03B;
+
+}
+
 .nav-link:hover {
   border: dashed #F4C03B;
   border-radius: 10%;
@@ -27,19 +38,33 @@ ol, ul, li {
   border-radius: 10%;
 }
 
-.box {
+.voyage{ 
+  position:relative;
+  top: 9%;
+  padding: auto;
+  width: 1000px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin: 30px
+  margin: 30px;
 }
 
-.container{
+#date {
+  width: 1000px;
+  height: 39px;
+  border-radius: 9%;
+}
+
+.btn {
+  width: 200px;
+  height: 39px;
+}
+  
+.box{
 display: flex;
 align-items: flex-start;
 justify-content: space-between;
 margin: 30px;
-
 }
 
 .box :first-child{
@@ -47,9 +72,7 @@ margin: 30px;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  /*height: 100px;*/
- /* width: 100px;*/
-  outline: black;
+    outline: black;
   background-color: #59B9C7;
   background-size: 100%, 100%;
   border-radius: 50%;
@@ -60,6 +83,28 @@ margin: 30px;
   background-color: #59b8c765;
 }
 
-figure {
+footer{
+  width: 100%;
+  height: 21vh;
+  background-color: #59B9C7;
+}
+
+.contact {
+  text-align: left;
+
+}
+
+.reseaux { 
+  text-align: center;
+} 
+
+.mentions {
+  text-align: left;
+}
+
+.musique {
+  align-items: center;
   margin: 0;
 }
+
+
